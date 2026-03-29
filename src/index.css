@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700;900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-serif-sc: 'Noto Serif SC', serif;
+}
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9fafb;
+  }
+}
+
+.font-serif-sc {
+  font-family: var(--font-serif-sc);
+}
